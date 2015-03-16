@@ -4,7 +4,7 @@ int main()
 	long fib[100] = {1,1};
 	int n, i;
 
-	printf("Dimensiunea vectorului");
+	printf("Dimensiunea vectorului: ");
 	scanf("%d", &n);
 
 	for (i = 2; i < n; i++)
@@ -14,7 +14,7 @@ int main()
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%ld", fib[i]);
+		printf("%ld\n", fib[i]);
 	}
 
 	return 0;
