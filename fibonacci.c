@@ -1,7 +1,8 @@
 #include <stdio.h>
+#define MAX 100
 int main()
 {
-	long fib[100] = {1,1};
+	long fib[MAX] = {1,1};
 	int n, i;
 
 	printf("Dimensiunea vectorului: ");
