@@ -1,2 +1,3 @@
 # my_project
-C programmes 
+
+This repository will contain C applications.
